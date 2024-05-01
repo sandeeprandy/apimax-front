@@ -1,0 +1,112 @@
+/* App.css */
+
+.app {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* TaskList.css */
+
+.task-list {
+  margin-bottom: 20px;
+}
+
+.add-task {
+  margin-bottom: 10px;
+}
+
+.add-task input[type="text"] {
+  padding: 8px;
+  width: 200px;
+  margin-right: 10px;
+}
+
+.add-task button {
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.add-task button:hover {
+  background-color: #0056b3;
+}
+
+/* TaskItem.css */
+
+.task-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+.task-item-text {
+  font-size: 16px;
+}
+
+.task-item-buttons {
+  margin-left: 5px;
+}
+
+.task-item button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.task-item button:hover {
+  background-color: #0056b3;
+}
+
+/* TaskSummaryPage.css */
+
+.task-summary-page {
+  padding: 20px;
+}
+
+.task-progress {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.progress-container {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.progress-bar {
+  background-color: #f0f0f0;
+  height: 20px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background-color: #007bff; /* Blue color for progress */
+  transition: width 0.5s ease; /* Smooth transition */
+}
+
+.progress-label {
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.progress-count {
+  margin-top: 5px;
+  font-size: 14px;
+  text-align: center;
+}
